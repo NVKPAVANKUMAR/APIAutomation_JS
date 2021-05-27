@@ -10,13 +10,7 @@ This is a JavaScript API test automation project.
 * [Chai](https://github.com/chaijs/chai)
 * [Supertest](https://github.com/visionmedia/supertest)
 
+To run test, simply clone the repo and use following commands.
 
-##### Start with 
-
-Cloning the repository
-    
-    Run npm install
-
-##### To Run Tests
-
+    npm install
     npm test
