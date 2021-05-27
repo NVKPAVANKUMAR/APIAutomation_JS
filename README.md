@@ -11,11 +11,12 @@ This is a JavaScript API test automation project.
 * [Supertest](https://github.com/visionmedia/supertest)
 
 
-#### Start with 
+##### Start with 
 
-    Cloning the repository
+Cloning the repository
+    
     Run npm install
 
-#### To Run Tests
+##### To Run Tests
 
     npm test
