@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test:awesome": "mocha --reporter mochawesome || true",
+    "open:report": "open mochawesome-report/mochawesome.html",
+    "test:users": "mocha -g /users --reporter mochawesome || true",
+    "test:not:users": "mocha -g /users -i --reporter mochawesome || true",
+    "test:comments": "mocha -g /comments --reporter mochawesome || true"
   },
-  "author": "",
+  "author": "pavan",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.4",
+    "faker": "^5.5.3",
     "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
     "supertest": "^6.1.3"
   }
 }
